@@ -1,0 +1,90 @@
+ @keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+
+
+
+
+
+body { margin: 0; 
+} 
+div#slider { overflow: hidden;
+margin-top: 100px;}
+div#slider figure img { width: 20%; float: left; }
+div#slider figure { 
+  position: relative;
+  width: 500%;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 10s slidy infinite; 
+}
+
+div .footer1{
+  position: absolute;
+  right: 0;
+  left: 0;
+  padding: 10px;
+  margin-top: 70px;
+  text-align: center;
+  background-color: #eee;
+}
+
+div .footer{
+  text-align: center;
+  background-color: #eee;
+  padding: 5px;
+ 
+
+
+  
+}
+
+div.footer{
+	text-align: center;
+	background-color: #eee;
+	padding: 10px;
+}
+div .footer p{
+	text-align: center;
+	color: #333;
+}
+
+.fa:hover {
+    opacity: 0.6;
+
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  padding:3px;
+  white-space: 7px;
+  border-radius: 12px;
+
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  padding:3px;
+  white-space: 7px;
+  border-radius: 12px;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+  padding: 3px;
+  white-space: 7px;
+  border-radius: 12px;
+}
